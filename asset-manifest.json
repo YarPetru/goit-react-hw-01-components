@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/YarPetru/goit-react-hw-01-components/static/css/main.7acaea2f.css",
+    "main.js": "/YarPetru/goit-react-hw-01-components/static/js/main.acc9e1f8.js",
+    "index.html": "/YarPetru/goit-react-hw-01-components/index.html",
+    "main.7acaea2f.css.map": "/YarPetru/goit-react-hw-01-components/static/css/main.7acaea2f.css.map",
+    "main.acc9e1f8.js.map": "/YarPetru/goit-react-hw-01-components/static/js/main.acc9e1f8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.acc9e1f8.js"
+  ]
+}
