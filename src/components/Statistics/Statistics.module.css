@@ -1,0 +1,31 @@
+.statistics {
+  text-align: center;
+  width: 100%;
+  background-color: aliceblue;
+  /* margin-bottom: 20px; */
+  /* border: navy solid 2px; */
+}
+
+.list {
+  display: flex;
+  /* justify-content: space-between; */
+  /* border: navy solid 2px; */
+}
+
+.item {
+  /* display: flex;
+  flex-direction: column; */
+  flex-grow: 1;
+  padding: 20px;
+  /* border: navy solid 2px; */
+  color: navy;
+  font-weight: 500;
+}
+
+.title {
+  margin: 0;
+  padding: 10px;
+  text-transform: uppercase;
+  color: navy;
+  /* border: navy solid 2px; */
+}

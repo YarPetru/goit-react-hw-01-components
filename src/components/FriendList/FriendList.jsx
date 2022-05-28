@@ -1,8 +1,9 @@
 import FriendInfo from './FriendInfo';
+import s from './FriendList.module.css';
 
 const FriendList = ({ friendsData }) => {
   return (
-    <ul>
+    <ul className={s.list}>
       {friendsData.map(f => (
         <FriendInfo
           key={f.id}

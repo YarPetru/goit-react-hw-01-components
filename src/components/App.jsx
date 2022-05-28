@@ -10,9 +10,11 @@ import friends from './FriendList/friends.json';
 import TransactionHistory from './TransactionHistory/TransactionHistory';
 import transactions from './TransactionHistory/transactions.json';
 
+import s from './App.module.css';
+
 export const App = () => {
   return (
-    <div className="App">
+    <div className={`${s.App} ${s.container}`}>
       <Profile
         username={u.username}
         tag={u.tag}
@@ -23,7 +25,7 @@ export const App = () => {
         // views={u.stats.views}
         // likes={u.stats.likes}
       />
-      <StatList data={data} title="Test Title" />
+      <StatList data={data} />
       <FriendList friendsData={friends} />
       <TransactionHistory transactionsList={transactions} />
     </div>
