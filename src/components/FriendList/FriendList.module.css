@@ -3,6 +3,10 @@
   align-items: flex-start;
   padding-top: 20px;
   background-color: lavender;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .item {
